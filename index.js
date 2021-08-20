@@ -30,7 +30,6 @@ const displayData = (product)=>{
     if(product){
         product.forEach(product =>{
             const div = document.createElement('div');
-
             div.innerHTML  += `<div class="card">
             <img src="${product.imageUrl}" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -51,5 +50,8 @@ const displayData = (product)=>{
 
 }
 
+const addData = () => {
+
+}
 
 
